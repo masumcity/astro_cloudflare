@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+	<main class="grow px-8 lg:px-12 mt-16 lg:mt-24 mb-12">
+        
+        <section class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start max-w-400 mx-auto">
+            
+            <div class="lg:col-span-7 flex gap-6 lg:gap-12">
+                <span class="text-4xl lg:text-5xl text-gray-400 font-light">/01</span>
+                
+                <div>
+                    <h1 class="text-6xl lg:text-8xl font-semibold tracking-tighter leading-none">
+                        Street Style
+                    </h1>
+                    <h2 class="text-3xl lg:text-5xl text-gray-400 mt-2 lg:mt-4 tracking-tight">
+                        Fashion in Urban Motion
+                    </h2>
+
+                    <p class="mt-12 lg:mt-24 text-lg leading-relaxed max-w-xl text-gray-800">
+                        This project is a kinetic study of digital velocity - where motion becomes metaphor. Through a deliberate distortion of interface and momentum, it explores how digital systems stretch and accelerate under pressure —revealing new rhythms in disruption and flow.
+                    </p>
+                </div>
+            </div>
+
+            <div class="lg:col-span-5 lg:pl-12 pt-4 lg:pt-8">
+                <h3 class="text-lg font-medium mb-6">Project Info</h3>
+                
+                <ul class="flex flex-col">
+                    <li class="flex justify-between py-4 border-b border-gray-300">
+                        <span class="text-gray-500 w-1/3">Services</span>
+                        <div class="text-right font-medium w-2/3">
+                            Art Direction<br>
+                            Digital Design
+                        </div>
+                    </li>
+                     <li class="flex justify-between py-4 border-b border-gray-300 items-center">
+                        <span class="text-gray-500 w-1/3">Client</span>
+                        <span class="text-right font-medium w-2/3">Aster Studio</span>
+                    </li>
+                     <li class="flex justify-between py-4 border-b border-gray-300 items-center">
+                        <span class="text-gray-500 w-1/3">Category</span>
+                        <span class="text-right font-medium w-2/3">Fashion Editorial</span>
+                    </li>
+                     <li class="flex justify-between py-4 border-b border-gray-300 items-center">
+                        <span class="text-gray-500 w-1/3">Duration</span>
+                        <span class="text-right font-medium w-2/3">May-August, 2025</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mt-16 lg:mt-24 w-full max-w-400 mx-auto">
+            <img 
+                src="https://images.unsplash.com/photo-1504593811423-6dd665756598?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" 
+                alt="Street Style Motion Blur" 
+                class="w-full h-[50vh] lg:h-[75vh] object-cover grayscale-20 contrast-125"
+            >
+        </section>
+
+    </main>
+</Layout>
